@@ -1,0 +1,139 @@
+<!Doctype html>
+<html>
+<head>
+<style>
+body{
+background-color:#B5FFFF;
+}
+#fname{
+background-color:pink;
+padding:4px;
+text-align:center;
+border: 3px solid black;
+border-radius:36px;
+}
+#lname{
+background-color:pink;
+padding:4px;
+text-align:center;
+border:3px solid black;
+border-radius:32px;
+}
+.parents{
+background-color:skyblue;
+width:50%;
+margin:0 auto;
+border:2px solid brown;
+border-radius:15px;
+}
+select{
+background-color:pink;
+padding:4px;
+
+}
+textarea{
+ weidth:100px;
+ height:120px;
+ background-color:pink;
+ color:blue;
+ margin-left:300px;
+ }
+h2{
+ color:blue;
+
+ }
+ form{
+ color:black;
+ }
+.child{
+ background-color:white;
+ 
+ padding:20px;
+ border:1px solid black;
+ border-radius:10px;
+ width:60%;
+margin: 0 auto;
+
+
+ 
+ }
+</style>
+</head>
+<body>
+<div class="parents">
+<form>
+<div class="child">
+<h2>HTML FORMS</h2>
+
+<label for="fname">First name:</label>
+<input type="text"id="fname" name="fname"placeholder="Enter the name"><br><br>
+<label for="lname">Last name:</label>
+<input type="text" id="lname" name="lname"placeholder="Enter the last name"><br>
+
+<p      style="color:blue;">Choose your subjects:</p>
+<form action="/action_page.php">
+<label for="DSA">DSA</label>
+<input type="radio"id="DSA"name="subject"><br>
+<label for="oops">oops</label>
+<input type="radio"id="oops" name="subject"><br>
+<label for="C++">C++</label>
+<input type="radio"id="C++" name="subject"><br>
+<label for="java">java</label>
+<input type="radio"id="java" name="subject"><br><br>
+<p     style="color:blue;">select your Gender:</p>
+<label for="male">male</label>
+<input type="radio"id="male"name="her">
+<label for="female">female</label>
+<input type="radio"id="female"name="her"><br>
+<br>
+<p   style="color:blue"> select your branch : </p>
+<select id="branch" name="branch">
+<option value="CSE">CSE</option>
+<option value="CSE(IOT)">CSE(IOT)</option>
+<option value="ECE">ECE</option>
+<option value="CIVIL">CIVIL</option>
+<option value="EE">EE</option>
+<option value="ME">ME</option>
+</select><br>
+<p style="color:blue;">choose your favorite place:</p> 
+<label for="place"> Darjeeling</label>
+<input type="checkbox" id="place"name="favplace"   ><br> 
+<label for="place"> Manali</label>
+<input type="checkbox" id="place"name="favplace"> <br>
+<label for="place">Mumbai</label>
+<input type="checkbox" id="place"name="favplace"> <br>
+<label for="place">SHimla</label>
+<input type="checkbox" id="place"name="favplace"> <br>                                                                                
+<br>
+<input type="submit" name="submit">
+<br>
+<input type="button"value="button">
+<input type="reset"value="reset">
+<textarea>Give your feedback...</textarea>
+
+
+</form>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
